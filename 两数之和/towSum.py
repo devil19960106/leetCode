@@ -1,3 +1,12 @@
+# 整体思路还是较为简单的，遍历数组，通过给定的target减去遍历的值得到一个差，然后再去数组里寻找这个差，
+# 找到则成功，没有找到就继续遍历。这里的重点是如何寻找这个差
+# 方法2是再次遍历数组
+# 方法3是先转换成字典，也可以理解是hashmap，然后再进行上述过程，由于hashmap查找的效率无限接近与O(1),所以耗时短
+# 方法4是在第三种方法的基础上不需要再对整个dict进行寻找，再加入一个新的键值对之前，判断是否满足条件，
+# 满足之后就直接返回，不满足就继续
+
+# 这样，这个题其实是考察耗时最短的查找方法
+
 ##暴力法 超时
 class Solution_1:
     def twoSum(self, nums, target):
@@ -13,8 +22,6 @@ class Solution_1:
             if flag == True:
                 break
         return answer
-
-
 ## 第二种暴力方法 使用target减去当前值得到差，然后去数组里查找是否有这个值
 ## 通过
 class Solution_2:
@@ -38,8 +45,7 @@ class Solution_3:
             if left != i and left is not None:
                 return [i,left]
 
-## 第四种方法， 在第三种方法的基础上不需要再对整个dict进行寻找，再加入一个新的键值对之前，判断是否满足条件，
-## 满足之后就直接返回，不满足就继续
+## 第四种方法， 进行转换时查找
 class Solution_4:
     def twoSum(self, nums, target):
         hashmap = {}
