@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9d34eb6-b263-477b-9adf-5a53fc22355a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/两数相加/addTwoNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/两数相加/addTwoNumbers_tail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/两数之和/twoSum_order.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/两数相加/addTwoNumbers_tail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+            <state relative-caret-position="253">
+              <caret line="76" column="58" lean-forward="true" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/两数相加/addTwoNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="1000">
+              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -53,12 +53,11 @@
         <option value="$PROJECT_DIR$/两数之和/towSum.py" />
         <option value="$PROJECT_DIR$/两数之和/twoSum_order.py" />
         <option value="$PROJECT_DIR$/两数相加/addTwoNumbers.py" />
+        <option value="$PROJECT_DIR$/两数相加/addTwoNumbers_tail.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
     <option name="width" value="1385" />
     <option name="height" value="745" />
   </component>
@@ -74,6 +73,16 @@
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="两数之和" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="两数相加" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,17 +177,19 @@
       <workItem from="1592703539856" duration="188000" />
       <workItem from="1592727679893" duration="12907000" />
       <workItem from="1592743877804" duration="715000" />
+      <workItem from="1592815406475" duration="48000" />
+      <workItem from="1592834219620" duration="2549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24422000" />
+    <option name="totallyTimeSpent" value="27019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -214,15 +225,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/两数之和/twoSum_order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
+        <state relative-caret-position="653">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/两数相加/addTwoNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="1000">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/两数相加/addTwoNumbers_tail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="76" column="58" lean-forward="true" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="58" />
         </state>
       </provider>
     </entry>
