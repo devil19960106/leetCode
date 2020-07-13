@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9d34eb6-b263-477b-9adf-5a53fc22355a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/判断子序列/isSubsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/最长有效括号/longestValidParentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/最长重复子数组(动态规划)/findLength.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/连续子数组的最大和(动态规划)/maxSubArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/通配符匹配/isMatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/不同路径2(动态规划)/robot_maze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/不同路径2(动态规划)/uniquePathsWithObstacles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/恢复空格(动态规划+字典树)/respace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/最佳买卖股票时机含冷冻期(动态规划)/maxProfit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/股票的最大利润(动态规划)/maxProfit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/计算右侧小于当前元素的个数/countSmaller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/路径总和/hasPathSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/路径总和/pathSum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +34,17 @@
     <SUITE FILE_PATH="coverage/leetCode$addToArrayForm.coverage" NAME="addToArrayForm Coverage Results" MODIFIED="1593002054496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数组形式的整数加法" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/股票的最大利润(动态规划)/maxProfit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,14 +80,21 @@
         <option value="$PROJECT_DIR$/判断子序列/isSubsequence.py" />
         <option value="$PROJECT_DIR$/最长重复子数组/findLength.py" />
         <option value="$PROJECT_DIR$/最长重复子数组(动态规划)/findLength.py" />
+        <option value="$PROJECT_DIR$/不同路径2(动态规划)/uniquePathsWithObstacles.py" />
+        <option value="$PROJECT_DIR$/路径总和/hasPathSum.py" />
+        <option value="$PROJECT_DIR$/路径总和/pathSum.py" />
+        <option value="$PROJECT_DIR$/恢复空格(动态规划+字典树)/respace.py" />
+        <option value="$PROJECT_DIR$/最佳买卖股票时机含冷冻期(动态规划)/maxProfit.py" />
+        <option value="$PROJECT_DIR$/计算右侧小于当前元素的个数/countSmaller.py" />
+        <option value="$PROJECT_DIR$/股票的最大利润(动态规划)/maxProfit.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -82,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,18 +110,27 @@
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="最佳买卖股票时机含冷冻期(动态规划)" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kindsOfSort" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\python\leetCode\不同路径2(动态规划)" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,17 +300,27 @@
       <workItem from="1593697207547" duration="8000" />
       <workItem from="1593841274004" duration="2352000" />
       <workItem from="1593919426739" duration="2882000" />
-      <workItem from="1593925483925" duration="16914000" />
+      <workItem from="1593925483925" duration="17091000" />
+      <workItem from="1594011252541" duration="2056000" />
+      <workItem from="1594105052903" duration="748000" />
+      <workItem from="1594106098001" duration="599000" />
+      <workItem from="1594123710182" duration="617000" />
+      <workItem from="1594281706048" duration="2904000" />
+      <workItem from="1594293496965" duration="145000" />
+      <workItem from="1594368652701" duration="2275000" />
+      <workItem from="1594431157560" duration="3668000" />
+      <workItem from="1594619876311" duration="1084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91132000" />
+    <option name="totallyTimeSpent" value="105405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19034852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -447,6 +487,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/不同路径2(动态规划)/robot_maze.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/不同路径2(动态规划)/uniquePathsWithObstacles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/路径总和/pathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/路径总和/hasPathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/计算右侧小于当前元素的个数/countSmaller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/恢复空格(动态规划+字典树)/respace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/最佳买卖股票时机含冷冻期(动态规划)/maxProfit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="66" lean-forward="true" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/股票的最大利润(动态规划)/maxProfit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
